@@ -75,7 +75,7 @@ Open graphs.ipynb with your [Jupyter Notebook App](https://jupyter-notebook-begi
 Plot the experiment of choice.
 Each plot will be generated from the last N runs of the directory: 
 ```
-"data/policy/results/EXPERIMENT/ENVIRONMENT/"
+data/policy/results/EXPERIMENT/ENVIRONMENT/
 ```
 
 Example graph for the "test" experiment for 6 evaluated runs on the Hopper-v2 environment:
