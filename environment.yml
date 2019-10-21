@@ -1,0 +1,15 @@
+name: master-thesis
+dependencies:
+  - tensorflow
+  - keras
+  - numpy
+  - seaborn
+  - pandas
+  - pip
+  - pip:
+      - gym[all]
+      - roboschool
+      - argparse
+      - tensorboardX
+      - scikit-learn
+      - cloudpickle
