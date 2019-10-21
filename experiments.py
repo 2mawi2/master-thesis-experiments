@@ -96,8 +96,7 @@ def ppo_clipping(clip_range=0.2):
 
 def test():
     args = get_default_args()
-    # run_evaluation(args=args, env="InvertedDoublePendulum-v2", experiment=f"ppo-clipped-complex-5-lr")
-    run_evaluation(args=args, env="Hopper-v2", experiment=f"test", steps=100_000, parallel_runs=1, runs=1)
+    run_evaluation(args=args, env="Hopper-v2", experiment=f"test", steps=100_000, parallel_runs=6, runs=1)
 
 
 def nn_size_comparasion():
